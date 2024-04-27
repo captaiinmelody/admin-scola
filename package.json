@@ -1,0 +1,48 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "clean": "rmdir /s /q node_modules",
+        "reinstall": "npm run clean && npm install",
+        "rebuild": "npm run clean && npm install && npm run build"
+    },
+    "devDependencies": {
+        "@headlessui/react": "^1.4.2",
+        "@iconify-icon/react": "^2.0.1",
+        "@inertiajs/react": "^1.0.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "^18.13.0",
+        "@types/react": "^18.0.28",
+        "@types/react-date-range": "^1.4.9",
+        "@types/react-datepicker": "^6.2.0",
+        "@types/react-dom": "^18.0.10",
+        "@vitejs/plugin-react": "^4.2.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.6.8",
+        "laravel-vite-plugin": "^1.0.0",
+        "postcss": "^8.4.31",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwindcss": "^3.2.1",
+        "typescript": "^5.0.2",
+        "vite": "^5.0.0"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@heroicons/react": "^2.1.1",
+        "@material-tailwind/react": "^2.1.9",
+        "@mui/material": "^5.15.15",
+        "@mui/x-date-pickers": "^7.3.1",
+        "date-fns": "^3.6.0",
+        "dayjs": "^1.11.10",
+        "localforage": "^1.10.0",
+        "match-sorter": "^6.3.4",
+        "react-date-picker": "^10.6.0",
+        "react-date-range": "^2.0.0-alpha.4",
+        "react-router-dom": "^6.22.3",
+        "sort-by": "^1.2.0"
+    }
+}
